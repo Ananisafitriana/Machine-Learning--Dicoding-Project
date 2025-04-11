@@ -1,0 +1,6 @@
+Dataset mentahan ==> dataset-clustering.csv
+Hasil setelah clustering ==> dataset-inisiasi.csv
+
+Nama : Annisa Fitriana
+Kelas : MS-01
+Student ID : MS060D5X0565

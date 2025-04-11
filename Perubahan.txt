@@ -1,0 +1,40 @@
+***REVISI 2***
+Kriteria 1: Pastikan setiap langkah dalam templat dilaksanakan secara runtut dan sistematis 
+Notebook kurang konsisten dan tidak mengikuti alur template.
+Terjadi pengulangan langkah (misalnya, memuat data atau eksplorasi di cell berbeda) yang membingungkan dan berisiko error.
+Kamu tidak melakukan pelatihan model pada tahap pembangunan model
+Kamu tidak melakukan evaluasi dengan metrik silhouette score pada tahap evaluasi model.
+==> Sudah di perbaiki
+
+
+Kriteria 4: Memaparkan Analisis dan Interpretasi
+Pastikan melakukan EDA tiap cluster
+
+Setelah clustering dan evaluasi, kamu perlu melakukan eksplorasi data setiap clusternya, jika tidak menganalisis data asli tiap cluster (seperti distribusi, rata-rata, atau karakteristik unik). Bagaimana bisa tahu ciri khas setiap cluster?
+==> sudah diperbaiki lebih baik
+
+***REVISI 1***
+
+File submission yang kamu submit belum sesuai kriteria utama pengiriman file submision yang ditentukan oleh Dicoding. Pastikan file submission yang kamu submit memenuhi semua kriteria wajib dan dikompres menjadi format .zip, berikut file yang wajib kamu lampirkan:
+dos-776504a8cc2a745a0137a0879eb4aaa520250320124657.png
+==> Saya telah memperbaiki nama file sesuai yang diminta
+
+Notebook
+
+Notebook yang Tidak Konsisten:
+Saat ini, proses load data, pemrosesan, dan pelatihan dilakukan berulang kali pada setiap segmen atau cell kode. Hal ini membuat notebook terlihat tidak konsisten, karena setiap langkah yang kamu kerjakan selalu berubah. Sebaiknya:
+Pastikan semua skema pelatihan model disusun secara runtut dan sistematis.
+Simpan label hanya dari model clustering yang sudah mencapai performa optimal.
+==> Saya telah memperbaiki urutan langkah dan beberapa telah saya beri penjelasan
+
+Penggunaan Library
+Agar penulisan kode lebih rapi pada proses debugging (preproces data, membuat model, dan melakukan testing). Kamu bisa menyimpan seluruh import pada Code Cell yang paling atas untuk meningkatkan kualitas keterbacaan kode baik pada file Clustering maupun file Klasifikasi.
+Hindari import library secara berulang kali yang sebelumnya sudah kamu definisikan pada awal notebook, selain bukan best practices. Hal ini juga menyebabkan code menjadi kurang bersih. Dan usahakan hanya melakukan import library yang benar-benar kamu butuhkan selama proses analisa data.
+dos-b81662dffbd82c4ca2a0ed67611102bc20250320151629.pngdos-098112441a4a92f6249cde027dd5f3fd20250320151416.png
+Redundansi inisiasi library LabelEncoder
+==> Redudansi library telah diperbaiki
+
+
+dos-29a8a75af49511beeb98713d05d4220020250320151733.png
+Pastikan kamu melatih model pada tahap pembangunan model clustering menggunakan algoritma yang dipilih.
+==> Saya menggunakan K-Means untuk pembangunan model, tahap pembangunan model sudah pada step berikutnya seperti visualisasi dll

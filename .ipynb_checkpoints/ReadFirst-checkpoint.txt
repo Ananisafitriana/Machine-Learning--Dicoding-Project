@@ -1,0 +1,2 @@
+Bank Transaction ==> dataset awal yang belum diclustering
+Hasil_clustering ==> dataset setelah clusterin
