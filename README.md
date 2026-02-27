@@ -1,6 +1,7 @@
 # 🤖 Machine Learning Project: Clustering & Classification
 
 Implemented an end-to-end Machine Learning workflow by performing Clustering on an unlabeled dataset to discover hidden patterns, followed by Classification modeling to generate predictive insights. The process involved data preprocessing, feature engineering, and model evaluation to transform raw data into structured knowledge.
+
 ---
 
 ## 🔎 Project Overview
